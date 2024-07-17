@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Trade - Elevating Vision, Redefining Horizons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header .logo {
+            max-height: 50px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #hero {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .product, .gallery-item {
+            margin-bottom: 20px;
+        }
+        .product img, .gallery-item img {
+            max-width: 100%;
+            border: 1px solid #ccc;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAACXBIWXMAAB7CAAAewgFu0HU+AAAFlklEQVR4nO2dT0xUURSFz/ZIYkFqEIIfICtJIGlSENkJdBgNBACCSdVADoJFBgcqKhCCouFQRU+II1AU7DghwUpUVgVSgoCC6+th5Hz8mXn/ObJmZmWfOTLPXtnt+v7hbt/G0TWv11mjfH8Xmh9PdMcxo6vqJNs+c+DJFYY7Htah+xbbBumGsO0QX2G6YKw3pCF9hmDsmG2Ra47+FmyQAYvkoX9zvcwv2YW9tklqHrp+W5isNKT7fq5DEUyr91GrZjJ8xtZG/JI0GOH3izC/KoD7/NXzH2zgk/8Xpu7kZ5Kb6YT8OeuG3XYU2/pLf65GrD/eD2yeV1mFX/MPRodUzffVxPcV5qlX5sgX87ehqOV+/wvSP/TVvMwPnMvU7gN4D+9ty0jXv5t/t4GHZ8+mD+Rv8WnL7huyN3ZlbHE0L3bZL9i6u1nZNR99mfHPLMJfzV9Y0HfgU57Bb2FLdkZ+P+sMxt7N85FX9vsbDQun+f70LX27G8sVzPD60Fjxzbk99m+H+fH9c7HqxPfzEZDP86f0ylzbWvBrt5W9WF79kD/N+PP1P2N9Pl8peHef4/9+5Ls5R7btiZ7Rr+/KDo39zMj8tnO8tG8YzMSZl80fXd5gHRN7/BstO7U9mFvLP8w0LHT+w8L7XT3LF8PUzTX8tozN7/nf/ymh5+dlfpdNa/NBZ/knalrP+mdX7I6ZXr9f5iaD+ofIcd5Utbvv5RfR7//6I71v5zbI9O+y79WvNm/HKQneYX02XOeQv8f47yCfie33xsTf0+98+7ydN+b7pcJ/N9Z/EfwA3L1B2lWpeAQAAAABJRU5ErkJggg==" alt="Pi Trade Logo" class="logo">
+</header>
+
+<nav>
+    <a href="#about">О компании</a>
+    <a href="#products">Продукты</a>
+    <a href="#technologies">Технологии</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="hero">
+    <div class="container">
+        <h1>Pi Trade</h1>
+        <p>Elevating Vision, Redefining Horizons</p>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>О компании</h2>
+        <p>Pi Trade — это ведущий производитель высокотехнологичных дронов с камерами, созданных для того, чтобы предоставить вам новые возможности для аэрофотосъемки и видеосъемки. Наша миссия — делать передовые технологии доступными для каждого, кто хочет открыть для себя новые горизонты.</p>
+    </div>
+</section>
+
+<section id="products">
+    <div class="container">
+        <h2>Наши Продукты</h2>
+        <div class="product">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+5+MFAAAACXBIWXMAAB7CAAAewgFu0HU+AAAB1ElEQVR4nO3QQQkAIADAQK39n+N3r5DI8JHqlIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBuSMR4O78u/vTsI/ihkG8a2SIsSAbdmlGtyRYw7M/Zk7Ds7eOmxXsXZQeh5/x+67GHZdaQmMbBdsZZ9PW9ghCxeK4G2aTxFneNYh5JPIuYd+7cSxFrBdw6pxt7pFLdbEhtb+K7Zwn2Q6M+7Ht0bd8paRaheF9vX1LUe83uR2E6k13G+zzJ9M4wnSRmnENjD7ibmfvvs/T5ntPUdYLTTTb/8i6NmktcxV/G20DS9fHHp84b2XNsuS+qb9dF/sNxomC2XjOd54jnt88eH9IMlf4jcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBN3Q46exYAEVYNbSwAAAABJRU5ErkJggg==" alt="Профессиональный дрон">
+            <h3>Профессиональные дроны</h3>
+            <p>Для кинематографистов и фотографов, требующих высочайшего качества изображения.</p>
+        </div>
+        <div class="product">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+5+MFAAAACXBIWXMAAB7CAAAewgFu0HU+AAAC0UlEQVR4nO3dQQrCMBAEQXcV3anazsKbuLh3ETapz98QaejYcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQ8UFTwnHfPzz2M0KZcrZwH+NsT/tZr+YUb/69T4vKQsBvX6O9XgS1h9DBah9LtELyfgkuFe3H79d7/2dxDJ5EYOr1wnJnr+/unv0OzC8V2/mkpOquhMOFO4X93zxHQ+zLPj9lj9JcMKh+F8a/WvL47Oqundop3n+jWXrI3+hy21A/5+4rn0H6zzfsJqkzxP8AyyGzsl9ofxdpPbGlyNxXuIItFw+yByh6vynk37Jvja/A8/40nw7PTj/7HH9kB5q9G9mPEUqv5SgZw66bbEUL9vP+P3B2YWlxtQnTTbb+5LV+mJ3mm+tib8leub6LdYu2nckN5/YT2qWTUbOZp6zP9A1PGJv5jupmXSTOMT+A5Ilt3/WaYt76o4GkvcyntIZ9pbb7Dtt1ib8fylsE0atbm10F7G3boiNO2xdGOXcK1P9vPmv4PA8td6P3HLL4R1d8Sb9dIubW0DxsLZ9IuepvYp6D30xXte2p3bvDk5D5ZOnwMAtv6P2XfkbHV+AbZd/sLX/NzHm6rK62S79p+ZsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECbl6IkaqUz9tMAAAAASUVORK5CYII=" alt="Коммерческий дрон">
+            <h3>Коммерческие дроны</h3>
+            <p>Для инспекций, сельского хозяйства и других профессиональных применений.</p>
+        </div>
+        <div class="product">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+5+MFAAAACXBIWXMAAB7CAAAewgFu0HU+AAAC9ElEQVR4nO3dUW7EMAwEQXfl/kfzQUU+JbZmijNw/Z5K8AAAAAAABAfQLKAtmGH9XtLtn8WqGfX4/x+dF5lz3z8OlV5olR4zn7abxz5td8KvF9blU8X3nZb97hrh9XE9r2Njc/hK9B5J5q9F9PEyx/qw8hKcUOl7B6ThFkVzjLB+fJw/NTBOSauTZ1QXQX7/7sV/b9Hbo1hbmtTF3/wDr2ZYv6ODvsmyjXePE/R3Wzc8ftfqD4jJdE1E3cQsXt/zdb2V3OHtb9+6D96fxHzcHtA9GnNz1wuxF2D7fX3j8f0T80+7HrpfXmbyZbtj97XlfXMfyaqLb2ScRnyTL5P8ly2E9S/5x4Mr/Wd9qVvTn41r3fH/d+ruocbfvo7mL7NhbV0+R2vWceM+qJ/qX3i3Htc/fLj3Z+cet6GxPz19Y/o1Y+JfUHlPfiS8SZ8Gfjc+uX89O/4MduifK62O9F2St2J/L5/k5Lsxq/C/XlTeJfONa/Xvdvn5f1ZPaTP4l9Xb1ptGPR10q+qJ/O/v+k6eqJw6/62rB1npvO/5f82c0n+rJ7OrxOcf0V7W2nHv6uG9P/FH5uwc+pUq9xP/lb2nLbT6VxdXPb9vHlcuv49pqG+R0V7Xbfn1xl43/e3Zj/X5/yC6Dfovc9Yuxs9l3f7+o1J5o84ynpLb07GTP9evYzPnupmj/17WzM58e6Tn4xOd1PbjHpN72pdm3afueh71mW7PcfY38bxj9N9Yw9FdvZw2jPqPc9Yiy3s85I5vdOx8xdK2fbGzck9O+9/Hj5s/TPvP94/5l3WHv7/TsAAAAAAAAAAAAAAABAR5n0Lxg8BlHLtQAAAABJRU5ErkJggg==" alt="Любительский дрон">
+            <h3>Любительские дроны</h3>
+            <p>Для тех, кто хочет насладиться полетами и запечатлеть прекрасные моменты с воздуха.</p>
+        </div>
+    </div>
+</section>
+
+<section id="technologies">
+    <div class="container">
+        <h2>Технологии</h2>
+        <p>Мы гордимся нашими инновациями в области стабилизации изображения, дальности полета и интеллектуальных функций дронов, таких как автоматическое избегание препятствий и следование за объектом. Наши дроны оснащены лучшими камерами, способными снимать в 4K и выше, что гарантирует потрясающее качество видео и фото.</p>
+    </div>
+</section>
+
+<section id="gallery">
+    <div class="container">
+        <h2>Галерея</h2>
+        <div class="gallery-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+5+MFAAAACXBIWXMAAB7CAAAewgFu0HU+AAAB1ElEQVR4nO3QQQkAIADAQK39n+N3r5DI8JHqlIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBuSMR4O78u/vTsI/ihkG8a2SIsSAbdmlGtyRYw7M/Zk7Ds7eOmxXsXZQeh5/x+67GHZdaQmMbBdsZZ9PW9ghCxeK4G2aTxFneNYh5JPIuYd+7cSxFrBdw6pxt7pFLdbEhtb+K7Zwn2Q6M+7Ht0bd8paRaheF9vX1LUe83uR2E6k13G+zzJ9M4wnSRmnENjD7ibmfvvs/T5ntPUdYLTTTb/8i6NmktcxV/G20DS9fHHp84b2XNsuS+qb9dF/sNxomC2XjOd54jnt88eH9IMlf4jcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBN3Q46exYAEVYNbSwAAAABJRU5ErkJggg==" alt="Дрон 1">
+        </div>
+        <div class="gallery-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+5+MFAAAACXBIWXMAAB7CAAAewgFu0HU+AAAC0UlEQVR4nO3dQQrCMBAEQXcV3anazsKbuLh3ETapz98QaejYcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQ8UFTwnHfPzz2M0KZcrZwH+NsT/tZr+YUb/69T4vKQsBvX6O9XgS1h9DBah9LtELyfgkuFe3H79d7/2dxDJ5EYOr1wnJnr+/unv0OzC8V2/mkpOquhMOFO4X93zxHQ+zLPj9lj9JcMKh+F8a/WvL47Oqundop3n+jWXrI3+hy21A/5+4rn0H6zzfsJqkzxP8AyyGzsl9ofxdpPbGlyNxXuIItFw+yByh6vynk37Jvja/A8/40nw7PTj/7HH9kB5q9G9mPEUqv5SgZw66bbEUL9vP+P3B2YWlxtQnTTbb+5LV+mJ3mm+tib8leub6LdYu2nckN5/YT2qWTUbOZp6zP9A1PGJv5jupmXSTOMT+A5Ilt3/WaYt76o4GkvcyntIZ9pbb7Dtt1ib8fylsE0atbm10F7G3boiNO2xdGOXcK1P9vPmv4PA8td6P3HLL4R1d8Sb9dIubW0DxsLZ9IuepvYp6D30xXte2p3bvDk5D5ZOnwMAtv6P2XfkbHV+AbZd/sLX/NzHm6rK62S79p+ZsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECbl6IkaqUz9tMAAAAASUVORK5CYII=" alt="Дрон 2">
+        </div>
+        <div class="gallery-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+5+MFAAAACXBIWXMAAB7CAAAewgFu0HU+AAAC9ElEQVR4nO3dUW7EMAwEQXfl/kfzQUU+JbZmijNw/Z5K8AAAAAAABAfQLKAtmGH9XtLtn8WqGfX4/x+dF5lz3z8OlV5olR4zn7abxz5td8KvF9blU8X3nZb97hrh9XE9r2Njc/hK9B5J5q9F9PEyx/qw8hKcUOl7B6ThFkVzjLB+fJw/NTBOSauTZ1QXQX7/7sV/b9Hbo1hbmtTF3/wDr2ZYv6ODvsmyjXePE/R3Wzc8ftfqD4jJdE1E3cQsXt/zdb2V3OHtb9+6D96fxHzcHtA9GnNz1wuxF2D7fX3j8f0T80+7HrpfXmbyZbtj97XlfXMfyaqLb2ScRnyTL5P8ly2E9S/5x4Mr/Wd9qVvTn41r3fH/d+ruocbfvo7mL7NhbV0+R2vWceM+qJ/qX3i3Htc/fLj3Z+cet6GxPz19Y/o1Y+JfUHlPfiS8SZ8Gfjc+uX89O/4MduifK62O9F2St2J/L5/k5Lsxq/C/XlTeJfONa/Xvdvn5f1ZPaTP4l9Xb1ptGPR10q+qJ/O/v+k6eqJw6/62rB1npvO/5f82c0n+rJ7OrxOcf0V7W2nHv6uG9P/FH5uwc+pUq9xP/lb2nLbT6VxdXPb9vHlcuv49pqG+R0V7Xbfn1xl43/e3Zj/X5/yC6Dfovc9Yuxs9l3f7+o1J5o84ynpLb07GTP9evYzPnupmj/17WzM58e6Tn4xOd1PbjHpN72pdm3afueh71mW7PcfY38bxj9N9Yw9FdvZw2jPqPc9Yiy3s85I5vdOx8xdK2fbGzck9O+9/Hj5s/TPvP94/5l3WHv7/TsAAAAAAAAAAAAAAABAR5n0Lxg8BlHLtQAAAABJRU5ErkJggg==" alt="Дрон 3">
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Контакты</h2>
+        <p><strong>Адрес:</strong> 1234 Дрон-стрит, Технологический парк, Город, Страна</p>
+        <p><strong>Телефон:</strong> +123 456 7890</p>
+        <p><strong>Email:</strong> info@pitrade.com</p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2024 Pi Trade. Все права защищены.</p>
+        <p><a href="https://example.com/privacy">Политика конфиденциальности</a> | <a href="https://example.com/terms">Условия использования</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
